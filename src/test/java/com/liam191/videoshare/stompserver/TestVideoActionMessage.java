@@ -11,7 +11,7 @@ public class TestVideoActionMessage {
     @Test
     void testGetName(){
         //TODO: replace null return value with something more appropriate
-        VideoActionMessage videoActionMessage = new VideoActionMessage();
-        assertEquals(videoActionMessage.getName(),null);
+        HelloMessage helloMessage = new HelloMessage();
+        assertEquals(helloMessage.getName(),null);
     }
 }
